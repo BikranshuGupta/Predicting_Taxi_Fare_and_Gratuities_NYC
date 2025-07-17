@@ -8,6 +8,8 @@
 </section>
 
 <h2> Data Understading</h2> <p> The NYC Taxi and Limousine Commission data from  NYC.gov. The data consisted of approximately 408k unique trip and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set.
-<img src="https://github.com/BikranshuGupta/Predicting_Taxi_Fare_and_Gratuities_NYC/blob/main/Image/tippers.jpg">  </p>
+<img src="https://github.com/BikranshuGupta/Predicting_Taxi_Fare_and_Gratuities_NYC/blob/main/Image/tippers.jpg"> In connection to this, a feaor notture was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type </p>
+
+<h2> Modeling and Evaluation </h2> A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. <img src="">
 
 
